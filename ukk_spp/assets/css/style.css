@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: arial, Helvetica, sans-serif;
+
+}
+
+	body{
+		background: #7099ec;
+}
+
+.head{
+	background: #3a208e;
+	width: 100%;
+	padding: 30px 0;
+	box-shadow: 0 2px 2px #1e1b43;
+}
+
+.head-text{
+	text-align: center;
+	color: #f0f8ff;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 2px solid  #2f171d;
+	padding: 2vh;
+}
+
+.link{
+	display: flex;
+}
+
+.link li{
+	margin: 0 10px;
+}
+
+.link li:hover{
+	border-bottom: 2px solid  #280827;
+}
+
+.container{
+	padding-top: 3vh;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background: #6a6ac6;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	color:#9bdbf0;
+}
+
+.col{
+	background: #a5dadf;
+	width: 98%;
+	padding: 15px 0 15px 25px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px #b1f7ca;
+}
+
+.card{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #a9deee;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 3px #d3e8f2;
+}
+
+.card-header{
+	border-bottom:  3px solid #2a0fdc;
+	padding: 25px;
+}
+
+.btn{
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #2a0fdc;
+	font-size: 13pt;	
+}
+
+.btn-tambah{
+	background: #4ba5f4;
+	color: #0f1d39;
+}
+
+.btn-edit{
+	background: #260589;
+	color: #f0f8ff;
+}
+
+.btn-tambah:hover{
+	border: 1px solid #9fb6fa;
+	background:#260589;
+	color: rgb(243, 244, 245);
+}
+
+table{
+	margin: 10px auto 10px;
+	width: 98%;
+	border-collapse: collapse;
+	border: 1px solid #a9bfeb;
+	text-align: center;
+}
+
+th{
+	background: #a1a8ef;
+	color: rgb(15, 42, 85);
+	height: 30px;
+	padding: 10px;
+}
+
+tr{
+	border: 1px solid #2a0fdc;
+}
+
+tr:hover{
+	background: #4ba5f4;
+}
+
+td{
+	padding: 8px;
+	height: 25px;
+}
+
+fieldset{
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.form-group{
+	display: block;
+	margin-top: 10px;
+}
+
+label{
+	display: inline-block;
+	margin: 3px 0 5px 0;
+	width: 20%;
+}
+
+.form-control{
+	display: block;
+	width: 50%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: black;
+	background: #5661d3;
+	background-clip: border-box;
+	border: 1px solid #4384f5;
+	border-radius: 1rem;
+}
+
+.btn-save{
+	margin-top: 20px;
+	border: 1px solid rgb(43, 15, 80);
+}
